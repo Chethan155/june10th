@@ -1,0 +1,106 @@
+aptitude test
+
+1. a) 29
+2. b)20
+3. c)96
+4. c)63
+5. a)9
+6. b)k
+7. a)p
+8. b)FR
+9. c)bccab
+10. a)GOV
+11. 2
+12. 16
+13. window
+14. SUN
+15. HJ
+
+java test
+
+1. java: java is a programming file
+   javac: javac is a compiler
+   
+2: jdk: jdk is a java development kit, it contains jre and jvm
+   jre: jre is run time envirnoment   
+   JVM: jvm is virtual machine 
+  
+3: limitations of array:
+
+4: class: class is a non primitive data type , its also called as design.it ex: class putta{
+}  declration of the class 
+
+5: array: array is a closed container ([])
+
+6: we need to create .java files, but java compiler will create .class files
+
+7:  length: 7
+
+8:  public static void main(String[]args)
+    public : accsess specifier
+	static : non accsess specifier
+	void : return type 
+	main : name of the main method 
+	(String[]args): parameters
+	
+
+9:  java is platform independece programming language, java is a programming file which creates , apps, websites, video games ,webserver etc
+
+10: variable is the name given to values
+    types of variables,
+	local variables
+	instance variables
+	static variables
+	 
+	 local variable: local variable declared with in the body of the class 
+	 
+	 ex: class putta {
+	       public static void main (String [] putta)
+		   int c=7;
+	 
+	 
+	 }
+    instance variable: its declared inside the class but out side of the method we can access the variable 
+	
+	 ex: class putta {
+	       int c=7
+	       public static void main (String [] putta){
+		    system.oy.println("");
+		   
+		   }
+		   
+	}
+	
+11: class variable is a non primitive data type used to create classes	
+
+12: types of datatypes:
+     primitive dataypes
+	 non primitive datatypes
+	 
+	 
+	 
+	 primitive datatypes: byte,int, float, double, string, long,char, boolean,
+	 
+	non primitive datatypes: class, array, objects
+	
+13: java features: easy to use , platform independence, big community over 3m users, object oriented,
+
+16: system.out.println is used to print a message 
+
+17: double equals os used to check 	the validation 
+
+18: dot operator is uses in the class and classRunner 
+
+
+
+
+20: 1 new 
+    2 return
+	3 int 
+	4 float
+	5 for 
+	6 long
+	7 string
+	8 if 
+	9 else 
+	10 byte
