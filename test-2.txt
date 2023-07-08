@@ -1,0 +1,132 @@
+aptitude test
+
+1. d) maternal uncle 
+2. c) father-in-law
+3. c) sister
+4. c) father 
+5. c) grandson
+6. b) X*Y+A
+7. c) R
+8. b) brother in law
+9. a) father
+10. c) s
+11. a) 10kms
+12. b) south
+13. a) south-west
+14. b) south-east
+
+
+
+
+
+java test 
+
+1. true 
+
+2. 10,110
+
+3. int cannot be converted into boolean:(error)
+
+4. The static keyword is used to define a method 
+   or variable that belongs to the class itself rather than to an instance of the class.
+   
+5.
+ class ReverseArray 
+{
+    public static void main(String[] args)
+    {
+        int[] inputArray = {10, 45, 7, 9, 2};
+        System.out.println("Original Array: " + inputArray);
+		reverseArray(inputArray);
+		System.out.println("Reversed Array: " + inputArray);
+    }
+	public static void reverseArray(int[] array) 
+	{
+        int start = 0;
+        int end = array.length - 1;
+		while (start < end) 
+		{
+          int temp = array[start];
+            array[start] = array[end];
+            array[end] = temp;
+            start++;
+            end--;
+        }
+    }
+}
+
+6. 
+   
+
+class Main
+ {
+    public static void main(String[] args)
+	{
+        int[] input = {2, 5, 4, 8, 2, 3, 6, 2};
+        int[] output = sortDescendingAndRemoveDuplicates(input);
+        System.out.println(Arrays.toString(output));
+    }
+
+    public static int[] sortDescendingAndRemoveDuplicates(int[] arr) 
+	{
+        Arrays.sort(arr);
+        int i = 0;
+        for (int j = 0; j < arr.length; j++)
+		{
+            if (arr[j] != arr[i])
+			{
+                i++;
+                arr[i] = arr[j];
+            }
+        }
+        int[] result = new int[i + 1];
+        for (int k = 0; k <= i; k++)
+		{
+            result[k] = arr[i - k];
+        }
+        return result;
+    }
+}
+
+
+7. true 
+
+8. this: It is a reference to the current object.
+ It is used to access instance variables, methods, or constructors of the current object.
+ 
+ this(): It is used to invoke another constructor of the same class from within a constructor.
+ It is used to initialize the object by providing different constructor overloads
+ 
+9.  class SwapNumbers 
+{
+    public static void main(String[] args)
+	{
+        int num1 = 10;
+        int num2 = 20;
+
+        System.out.println("Before swapping:");
+        System.out.println("num1 = " + num1);
+        System.out.println("num2 = " + num2);
+
+        num1 = num1 + num2;
+        num2 = num1 - num2;
+        num1 = num1 - num2;
+
+        System.out.println("After swapping:");
+        System.out.println("num1 = " + num1);
+        System.out.println("num2 = " + num2);
+    }
+}
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
