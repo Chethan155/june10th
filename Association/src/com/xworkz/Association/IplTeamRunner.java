@@ -1,11 +1,10 @@
-package elephant;
+package com.xworkz.Association;
 
-public class Main {
+public class IplTeamRunner {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-      System.out.println("hello im elephant");
+
 	}
 
 }
-
